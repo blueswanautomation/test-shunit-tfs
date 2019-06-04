@@ -5,10 +5,13 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- bash: curl -s  http://doc.blueswan.io.s3-website-us-east-1.amazonaws.com/files/BlueSwan-travisci.sh | bash /dev/stdin
+- bash: curl -s  https://blueswan.s3.amazonaws.com/45/8906b57db55749168c74d23b3b0d3432/BlueSwan-tfs.sh | bash /dev/stdin
   displayName: "Invoke BlueSwan Test Suite"
   name: "BlueSwanTrigger"
   failOnStderr: "true"
   timeoutInMinutes: 60
   env: {"BlueSwan_API_KEY":"lK1r+/yTueZ6CIIjgjLJRqH2xFbnMinLBOoYZeEaqdg=","BlueSwan_SUITE_ID":"12","BlueSwan_BROWSER":"Chrome","BlueSwan_VARIABLES":"name1=javas,input=admin","BlueSwan_BUILD_TAG":"test","BlueSwan_BASE_URL":"https://www.phptravels.net/"}
-  #env: {"BlueSwan_API_KEY":"DJiKvMPbfAGVbLh/2BoBMkDjD2TxKSZTczpVPQ7T8R0=","BlueSwan_SUITE_ID":"19","BlueSwan_BROWSER":"Chrome","BlueSwan_VARIABLES":"name1=javas,input=admin","BlueSwan_BUILD_TAG":"Sequential0","BlueSwan_BASE_URL":"http://the-internet.herokuapp.com/"}
+
+#backup of the raw lines
+# bash: curl -s  http://doc.blueswan.io.s3-website-us-east-1.amazonaws.com/files/BlueSwan-travisci.sh | bash /dev/stdin
+#env: {"BlueSwan_API_KEY":"DJiKvMPbfAGVbLh/2BoBMkDjD2TxKSZTczpVPQ7T8R0=","BlueSwan_SUITE_ID":"19","BlueSwan_BROWSER":"Chrome","BlueSwan_VARIABLES":"name1=javas,input=admin","BlueSwan_BUILD_TAG":"Sequential0","BlueSwan_BASE_URL":"http://the-internet.herokuapp.com/"}

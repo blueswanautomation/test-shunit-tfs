@@ -5,7 +5,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
-- bash: curl -s  https://blueswan.s3.amazonaws.com/45/8906b57db55749168c74d23b3b0d3432/BlueSwan-tfs.sh | bash /dev/stdin
+- bash: curl -s  https://blueswan.s3.amazonaws.com/45/c681e57bb2fe4eb59ce513055142f054/BlueSwan-tfs.sh | bash /dev/stdin
   displayName: "Invoke BlueSwan Test Suite"
   name: "BlueSwanTrigger"
   failOnStderr: "true"

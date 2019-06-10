@@ -16,4 +16,3 @@ steps:
 # bash: curl -s  http://doc.blueswan.io.s3-website-us-east-1.amazonaws.com/files/BlueSwan-travisci.sh | bash /dev/stdin
 #env: {"BlueSwan_API_KEY":"DJiKvMPbfAGVbLh/2BoBMkDjD2TxKSZTczpVPQ7T8R0=","BlueSwan_SUITE_ID":"19","BlueSwan_BROWSER":"Chrome","BlueSwan_VARIABLES":"name1=javas,input=admin","BlueSwan_BUILD_TAG":"Sequential0","BlueSwan_BASE_URL":"http://the-internet.herokuapp.com/"}
 
-

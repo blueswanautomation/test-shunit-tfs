@@ -10,7 +10,7 @@ steps:
   name: "BlueSwanTrigger"
   failOnStderr: "true"
   timeoutInMinutes: 60
-  env: {"BlueSwan_API_KEY":"RExAVTrOvI+jdJaNTfFS665MClIN+718la6+q6ZUeVU=","BlueSwan_SUITE_ID":"12","BlueSwan_BROWSER":"Chrome","BlueSwan_VARIABLES":"name1=javas,input=admin","BlueSwan_BUILD_TAG":"test","BlueSwan_BASE_URL":"https://www.phptravels.net/"}
+  env: {"BlueSwan_API_KEY":"RExAVTrOvI+jdJaNTfFS665MClIN+718la6+q6ZUeVU=","BlueSwan_SUITE_ID":"12","BlueSwan_BROWSER":"Chrome","BlueSwan_VARIABLES":"name1=javas,input=admin","BlueSwan_BUILD_TAG":"Failure test","BlueSwan_BASE_URL":"https://www.phptravels.net/"}
 
 #backup of the raw lines
 # bash: curl -s  http://doc.blueswan.io.s3-website-us-east-1.amazonaws.com/files/BlueSwan-travisci.sh | bash /dev/stdin
